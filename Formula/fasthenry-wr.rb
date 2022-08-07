@@ -29,6 +29,6 @@ class FasthenryWr < Formula
       .freq fmin=0 fmax=1e9 ndec=1
       .end
     EOS
-    system "#{bin}/fasthenry", "test.inp"
+    system bin/"fasthenry", "test.inp"
   end
 end
